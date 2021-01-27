@@ -9,7 +9,7 @@
 9. Line 11 would give an error because line 5 is still considered part of a block so it is out of scope.
 10. Line 12 would give an error since it is a const variable declared in the for loop, it can only be accessed within the for loop block so it is out of scope.
 11. Line 13 would print out 0 since it is declared as a const outside of the for loop, but it will not have its value updated within the for loop since it is of type const.
-12. The function would return [] because since it is declared as a const and is already assigned before the for loop, it cannot be reassigned so it cannot be updated within the for loop.
+12. The function would return [0, 0, 0] because since it is declared as a const and is already assigned before the for loop, it cannot be reassigned so it cannot be updated within the for loop.
 13.
 
 A) student.name  
@@ -42,6 +42,6 @@ F) Output was true because they are both booleans and Boolean of anything positi
 
 17. 'How are you?' gets printed because the first if statement returns false because comparing 2 to true is asking if 2 is equal to 1 which is false so it goes to the next else if statement. The value of 2 is okay to have since any positive number that is non zero is considered to be true so that is why it goes into the else if block.   
 18. Photo in directory
-19. The function will return [6] since when we do callback(1+2) this results in 3 and then we muliply by 2 which results in 6. We know that we can only go through the loop once since the array is a const data type, so the result ends up being [6].
+19. The function will return [6, 8, 10] since when we do callback(1+2) this results in 3 and then we muliply by 2 which results in 6. We know that we can only go through the loop once since the array is a const data type, so the result ends up being [6].
 20. Photo in directory
 21. The output would be 1, 4, 3, 2 on separate lines.
