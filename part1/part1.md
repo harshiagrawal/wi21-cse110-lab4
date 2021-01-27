@@ -17,3 +17,28 @@ B) student['Grad Year']
 C) student.greeting()   
 D) student['Favorite Teacher'].name     
 E) student.courseLoad[0]
+
+14.
+
+A) Output was '32' because it is converting 2 to 3 since 3 is already a string. The addition sign is basically concatenating the two values into a string.   
+B) Output was 1 because there is no equivalent of subtraction in string, so there is no overloaded operator.  
+C) Output was 3 because null has the value of zero, so adding 3 + 0 gives you 3 since 3 was also a number.  
+D) Output was '3null' because again the addition sign is overloaded so you concatenate the two strings.  
+E) Output was 4 since true with numbers is equivalent to 1 so 3+1 gives you 4 since both values were numbers.  
+F) Output was 0 because false is 0 in number and adding null to 0 is just 0.  
+G) Output was '3undefined' because 3 was a string and it concatenated with undefined so the operator was overloaded to completely be a string.  
+H) Output was NaN because since we are doing subtraction, that can't be done with strings, so when we have undefined, it is NaN as a number.  
+
+15.
+
+A) Output was true because the string is converted into a number and since 2 is greater than 1, we get true.   
+B) Output was false because it is comparing the first characters first (it is comparing the ascii values) so it is comparing the equal amount of substrings.   
+C) Output was true because it converts the string 2 as a number and 2 is equivalent to 2.   
+D) Output was false because it is a strict equality so the data types need to also be the same.   
+E) Output was false because true is basically a one and 1 does not equal 2.    
+F) Output was true because they are both booleans and Boolean of anything positive (non zero) will give you one.   
+
+16. Basically the main difference is that === is a strict equality where both data types must be the same in order for the operators to correctly function. If the data types are unmatched the expression would always return false. With ==, you are able to compare two different data types.    
+
+17. 'How are you?' gets printed because the first if statement returns false because comparing 2 to true is asking if 2 is equal to 1 which is false so it goes to the next else if statement. The value of 2 is okay to have since any positive number that is non zero is considered to be true so that is why it goes into the else if block.   
+
