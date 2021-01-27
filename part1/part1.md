@@ -41,6 +41,7 @@ F) Output was true because they are both booleans and Boolean of anything positi
 16. Basically the main difference is that === is a strict equality where both data types must be the same in order for the operators to correctly function. If the data types are unmatched the expression would always return false. With ==, you are able to compare two different data types.    
 
 17. 'How are you?' gets printed because the first if statement returns false because comparing 2 to true is asking if 2 is equal to 1 which is false so it goes to the next else if statement. The value of 2 is okay to have since any positive number that is non zero is considered to be true so that is why it goes into the else if block.   
-
+18. Photo in directory
 19. The function will return [6] since when we do callback(1+2) this results in 3 and then we muliply by 2 which results in 6. We know that we can only go through the loop once since the array is a const data type, so the result ends up being [6].
+20. Photo in directory
 21. The output would be 1, 4, 3, 2 on separate lines.
