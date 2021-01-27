@@ -12,8 +12,8 @@
 12. The function would return [] because since it is declared as a const and is already assigned before the for loop, it cannot be reassigned so it cannot be updated within the for loop.
 13.
 
-A) student.name
-B) student['Grad Year']
-C) student.greeting()
-D) student['Favorite Teacher'].name
+A) student.name  
+B) student['Grad Year']   
+C) student.greeting()   
+D) student['Favorite Teacher'].name     
 E) student.courseLoad[0]
